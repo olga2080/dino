@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.l-menu ul{
+    display: flex;
+}
+.r-menu ul{
+    display: flex;
+}
+.l-menu ul li, .r-menu ul li{
+   padding-left: 50px;
+   list-style: none;
+}
+.l-menu ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.r-menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.info{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.podval{
+    display: flex;
+}
+.coi{
+    flex-basis: 40%;
+}
+.coi2{
+    flex-basis: 60%;
+}
